@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*写入 HTML 输出*/
+    document.write("<p>hello world</p>")
+    /*改变 HTML 内容*/
+    document.write("<p id='demo'>改变内容</p>")
+    function fucTest() {
+        x = document.getElementById("demo");
+        x.innerHTML = "Hello JavaScript";
+    }
+</script>
+<button type="button" onclick="alert('hello,World')">hello,World</button>
+<button type="button" onclick="fucTest()">改变</button>
+</body>
+</html>
